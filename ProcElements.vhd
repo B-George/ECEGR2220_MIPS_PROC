@@ -136,8 +136,6 @@ ARCHITECTURE remember OF Registers IS
 	SIGNAL s0out, s1out, s2out, s3out, s4out, s5out, s6out, s7out: STD_LOGIC_VECTOR(31 DOWNTO 0);
 	
 BEGIN
-
-
 	zero: 	register32 PORT MAP(zeroVal, '0', '0', '0', '0', '1', '1', zeroVal);
 	s0: 	register32 PORT MAP(WriteData(31 DOWNTO 0), '0', '0', '0', WriteCmd, '1', '1', s0out);
 	s1: 	register32 PORT MAP(WriteData(31 DOWNTO 0), '0', '0', '0', WriteCmd, '1', '1', s1out);

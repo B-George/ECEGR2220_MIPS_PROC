@@ -20,6 +20,7 @@ ENTITY Processor IS
 END Processor;
 
 ARCHITECTURE holistic OF Processor IS
+	
 	COMPONENT Control
    	     PORT(opcode :	IN  STD_LOGIC_VECTOR (5 DOWNTO 0);
 	           clk : 	IN  STD_LOGIC;
@@ -73,7 +74,46 @@ ARCHITECTURE holistic OF Processor IS
 		PORT(datain: IN STD_LOGIC_VECTOR(15 DOWNTO 0);
 		     dataout: OUT STD_LOGIC_VECTOR(31 DOWNTO 0) );
 	END COMPONENT SignExtender; 	
+
+SIGNAL inst, read1, read2, immSE, alu2, aluOut, readOutput, writeDat: STD_LOGIC_VECTOR(31 DOWNTO 0);
+SIGNAL contInst, aluInst: STD_LOGIC_VECTOR(5 DOWNTO 0);
+SIGNAL readReg1, readReg2, writeReg, aluCtrl: STD_LOGIC_VECTOR(4 DOWNTO 0); 
+SIGNAL RegDst, ALUSrc, MemtoReg, MemRead, MemWrite, RegWrite: STD_LOGIC;
+SIGNAL aluOp: STD_LOGIC_VECTOR(1 DOWNTO 0);
+
 BEGIN
-	-- Add your code here
+	-- Signal Assignment
+	RegDst <= RegDst;
+	ALUSrc <= ALUSrc;
+	MemtoReg <= MemtoReg;
+	MemRead <= MemRead;
+	MemWrite <= MemWrite;
+	RegWrite <= RegWrite;
+	aluOp(1 DOWNTO 0) <= ALUOp(1 DOWNTO 0);
+	aluOut(31 DOWNTO 0) <= ALUResult(31 DOWNTO 0);
+	
+	-- Instantiate Mux components
+	instMUX:SmallBusMux2to1 PORT MAP(RegDst, inst(20 DOWNTO 16), 
+					 inst(15 DOWNTO 11), 
+					 writeReg(4 DOWNTO 0));
+	aluMUX: BusMux2to1 	PORT MAP(ALUSrc, read2(31 DOWNTO 0), 
+					 immSE(31 DOWNTO 0), 
+					 alu2(31 DOWNTO 0)); 
+	outMUX: BusMux2to1	PORT MAP(MemtoReg, readOutput(31 DOWNTO 0),
+					 aluOut(31 DOWNTO 0), 
+					 writeDat(31 DOWNTO 0));
+	
+	-- Instantiate master control
+	ctrl: Control		PORT MAP(inst(31 DOWNTO 26), clock, RegDst, Branch,
+					 MemRead, MemtoReg, ALUSrc, aluOp(1 DOWNTO 0),
+				 	 MemWrite, ALUSrc, RegWrite);
+					   
+	-- Instantiate ALU
+	alu: ALU1		PORT MAP(read1(31 DOWNTO 0), alu2(31 DOWNTO 0), 
+					 aluCtrl(4 DOWNTO 0), z, 
+					 aluOut(31 DOWNTO 0));
+		   
+	 
+				 
 END holistic;
 

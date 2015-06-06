@@ -1,0 +1,55 @@
+{C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/ALU.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Mar 25 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU
+-- Compiling architecture behavior of ALU
+
+} {} {}} {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tProcessor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tProcessor.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Mar 25 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity tProcessor_vhd
+-- Compiling architecture behavior of tProcessor_vhd
+
+} {} {}} {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/registers.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/registers.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Mar 25 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bitstorage
+-- Compiling architecture memlike of bitstorage
+-- Compiling entity fulladder
+-- Compiling architecture addlike of fulladder
+-- Compiling entity register8
+-- Compiling architecture memmy of register8
+-- Compiling entity register32
+-- Compiling architecture biggermem of register32
+-- Compiling entity adder_subtracter
+-- Compiling architecture calc of adder_subtracter
+-- Compiling entity shift_register
+-- Compiling architecture shifter of shift_register
+
+} {} {}} {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tControl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tControl.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Mar 25 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity tControl_vhd
+-- Compiling architecture behavior of tControl_vhd
+
+} {} {}}
