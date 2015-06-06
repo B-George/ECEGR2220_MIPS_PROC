@@ -203,7 +203,7 @@ BEGIN
  		END IF;
 	END PROCESS;
 			dataout <= result(31 DOWNTO 0); -- extract the n-bit result
- 			co <= result(32) XOR carryBits(31); -- get signed overflow bit
+ 			co <= result(n) XOR carryBits(n-1); -- get signed overflow bit
 END ARCHITECTURE calc;
 
 --------------------------------------------------------------------------------
