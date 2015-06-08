@@ -61,12 +61,12 @@ END Control;
 
 ARCHITECTURE Boss OF Control IS
 
-	SIGNAL clock: STD_LOGIC;
+	--SIGNAL clock: STD_LOGIC;
 	
 BEGIN
-	PROCESS(clock)
+	PROCESS(clk)
 	BEGIN
-		IF(clock'EVENT AND clock = '1') THEN
+		IF(rising_edge(clk)) THEN
 
 		RegDst <= NOT opcode(5); ------------------------- set Register destination
 	 	ALUSrc <= opcode(5); ----------------------------- set ALU source 
@@ -131,9 +131,14 @@ ARCHITECTURE remember OF Registers IS
 		 dataout: 				OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
 	END COMPONENT;
 
-	SIGNAL zeroVal: STD_LOGIC_VECTOR(31 DOWNTO 0) := "00000000000000000000000000000000";
-	SIGNAL output: STD_LOGIC_VECTOR(31 DOWNTO 0);
-	SIGNAL s0out, s1out, s2out, s3out, s4out, s5out, s6out, s7out: STD_LOGIC_VECTOR(31 DOWNTO 0);
+	SIGNAL 	zeroVal: 
+			STD_LOGIC_VECTOR(31 DOWNTO 0) := "00000000000000000000000000000000";
+	
+	SIGNAL 	s0out, s1out, 
+		s2out, s3out, 
+		s4out, s5out, 
+		s6out, s7out: 
+			STD_LOGIC_VECTOR(31 DOWNTO 0);
 	
 BEGIN
 	zero: 	register32 PORT MAP(zeroVal, '0', '0', '0', '0', '1', '1', zeroVal);
@@ -146,6 +151,28 @@ BEGIN
 	s6: 	register32 PORT MAP(WriteData(31 DOWNTO 0), '0', '0', '0', WriteCmd, '1', '1', s6out);
 	s7: 	register32 PORT MAP(WriteData(31 DOWNTO 0), '0', '0', '0', WriteCmd, '1', '1', s7out);
 	
+	WITH ReadReg1 SELECT ReadData1(31 DOWNTO 0) <=
+		s0out WHEN "10000",
+		s1out WHEN "10001",
+		s2out WHEN "10010",
+		s3out WHEN "10011",
+		s4out WHEN "10100",
+		s5out WHEN "10101",
+		s6out WHEN "10110",
+		s7out WHEN "10111",
+		zeroVal WHEN OTHERS; 
+		 
+	WITH ReadReg2 SELECT ReadData2(31 DOWNTO 0) <=
+		s0out WHEN "10000",
+		s1out WHEN "10001",
+		s2out WHEN "10010",
+		s3out WHEN "10011",
+		s4out WHEN "10100",
+		s5out WHEN "10101",
+		s6out WHEN "10110",
+		s7out WHEN "10111",
+		zeroVal WHEN OTHERS; 
+		 
 END remember;
 
 ------------------------------------------------------------------

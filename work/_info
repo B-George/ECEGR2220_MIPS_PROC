@@ -24,9 +24,9 @@ V]YFOZCa=n<h[[Bd[[8Cl90
 !s100 l6T:F5m^DWfUhR0SNBQXA1
 Z9 OP;C;10.4a;61
 32
-Z10 !s110 1433623207
+Z10 !s110 1433645968
 !i10b 1
-Z11 !s108 1433623206.000000
+Z11 !s108 1433645967.000000
 Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/registers.vhd|
 Z13 !s107 C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/registers.vhd|
 !i113 1
@@ -69,9 +69,9 @@ V6]ABQJUA]LB5_8EiB>ocU3
 !s100 haGU3T@@>:Keocf54on0^1
 R9
 32
-Z19 !s110 1433623203
+Z19 !s110 1433645966
 !i10b 1
-Z20 !s108 1433623202.000000
+Z20 !s108 1433645966.000000
 Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/ALU.vhd|
 Z22 !s107 C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/ALU.vhd|
 !i113 1
@@ -99,7 +99,7 @@ R22
 R14
 R15
 Ealucontrol
-Z23 w1433623044
+Z23 w1433645960
 R1
 R2
 R4
@@ -113,11 +113,11 @@ VHiT7==UAFNUFz;IOgDh7F3
 !s100 @OG[@c<HGba:_YY6XC;Po0
 R9
 32
-Z26 !s110 1433623204
+Z26 !s110 1433645967
 !i10b 1
-Z27 !s108 1433623203.000000
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/ProcElements.vhd|
-Z29 !s107 C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/ProcElements.vhd|
+R20
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/ProcElements.vhd|
+Z28 !s107 C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/ProcElements.vhd|
 !i113 1
 R14
 R15
@@ -135,9 +135,9 @@ R9
 32
 R26
 !i10b 1
+R20
 R27
 R28
-R29
 !i113 1
 R14
 R15
@@ -203,9 +203,9 @@ R9
 32
 R26
 !i10b 1
+R20
 R27
 R28
-R29
 !i113 1
 R14
 R15
@@ -223,9 +223,9 @@ R9
 32
 R26
 !i10b 1
+R20
 R27
 R28
-R29
 !i113 1
 R14
 R15
@@ -246,9 +246,9 @@ R9
 32
 R26
 !i10b 1
+R20
 R27
 R28
-R29
 !i113 1
 R14
 R15
@@ -260,15 +260,15 @@ R5
 DEx4 work 7 control 0 22 1@HHI6]`TPA6VL;2MP?2G3
 l66
 L62
-VU5AD]h7<f^`55X]Dm1g_^0
-!s100 c9fze?Q]j7Wkc]k;ZXZ;I2
+VJoa9=LW9odcCUmimNo0;[2
+!s100 5^TCiYNd^[=L]L=1`c24R3
 R9
 32
 R26
 !i10b 1
+R20
 R27
 R28
-R29
 !i113 1
 R14
 R15
@@ -318,25 +318,25 @@ R13
 R14
 R15
 Eprocessor
-Z30 w1433623666
+Z29 w1433644783
 R1
 R2
 R4
 R5
 R6
-Z31 8C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/Processor.vhd
-Z32 FC:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/Processor.vhd
+Z30 8C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/Processor.vhd
+Z31 FC:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/Processor.vhd
 l0
 L11
 VIGKQ3GTbFagiFPcakbBa:3
 !s100 e^JzjO7HzK?h^78KVAWSf3
 R9
 32
-!s110 1433623669
+R26
 !i10b 1
-!s108 1433623669.000000
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/Processor.vhd|
-!s107 C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/Processor.vhd|
+R11
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/Processor.vhd|
+Z33 !s107 C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/Processor.vhd|
 !i113 1
 R14
 R15
@@ -346,17 +346,17 @@ R2
 R4
 R5
 DEx4 work 9 processor 0 22 IGKQ3GTbFagiFPcakbBa:3
-l84
+l119
 L22
-VX;>2L[<NcAK04FT6^AGAa1
-!s100 F]YO=RkMjk@^lO47N]67;0
+VfgCo6YY1ZM>2n44Ho_SIf3
+!s100 >J<HT`X<EdU1<a;:VDlMk3
 R9
 32
-!s110 1433622266
+R26
 !i10b 1
-!s108 1433622266.000000
+R11
+R32
 R33
-!s107 C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/Processor.vhd|
 !i113 1
 R14
 R15
@@ -467,9 +467,9 @@ R9
 32
 R26
 !i10b 1
+R20
 R27
 R28
-R29
 !i113 1
 R14
 R15
@@ -479,17 +479,17 @@ R2
 R4
 R5
 DEx4 work 9 registers 0 22 I74ncZZL2Rk[R[Xkgog6Q0
-l138
+l143
 L125
-V<E1CO;ARJ6JTY^L7kCSY83
-!s100 z>2>K8GE4cGXcRRk;LV3i1
+VXgeEKSh0g_eX5AQCZK^bi3
+!s100 c1d`V[^zZ<dYEjHXiYKi]0
 R9
 32
 R26
 !i10b 1
+R20
 R27
 R28
-R29
 !i113 1
 R14
 R15
@@ -548,16 +548,16 @@ R6
 R24
 R25
 l0
-L158
-Vf6nAU_AJeSSBl6M:;[cdH2
-!s100 6lJ;0PPo7R?`Zko75R;UZ0
+L185
+VY9hnQSoW[?716nTo49<7V1
+!s100 HJ[5SoCo6I89<hgmSPJQb2
 R9
 32
 R26
 !i10b 1
+R20
 R27
 R28
-R29
 !i113 1
 R14
 R15
@@ -566,18 +566,18 @@ R1
 R2
 R4
 R5
-DEx4 work 12 signextender 0 22 f6nAU_AJeSSBl6M:;[cdH2
-l164
-L163
-VMQJ0bEzeaiCzCALjcI:ED1
-!s100 Ma`?Ri>Q70g[:oRfZ?LQQ1
+DEx4 work 12 signextender 0 22 Y9hnQSoW[?716nTo49<7V1
+l191
+L190
+VXS^^O2kHi6__l`M1iTT^z2
+!s100 L22D=1h@F2>Fe2^[EVhJO3
 R9
 32
 R26
 !i10b 1
+R20
 R27
 R28
-R29
 !i113 1
 R14
 R15
@@ -598,9 +598,9 @@ R9
 32
 R26
 !i10b 1
+R20
 R27
 R28
-R29
 !i113 1
 R14
 R15
@@ -618,9 +618,9 @@ R9
 32
 R26
 !i10b 1
+R20
 R27
 R28
-R29
 !i113 1
 R14
 R15
@@ -640,11 +640,11 @@ VKg^GnR`XN]1KaQ8zafc9Q3
 !s100 BZ2H9>eWa0:;Q1dZ]>nl00
 R9
 32
-Z37 !s110 1433623208
+R10
 !i10b 1
-Z38 !s108 1433623208.000000
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tControl.vhd|
-Z40 !s107 C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tControl.vhd|
+Z37 !s108 1433645968.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tControl.vhd|
+Z39 !s107 C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tControl.vhd|
 !i113 1
 R14
 R15
@@ -661,11 +661,11 @@ Vo0T7FWCQ8Qf?a@7J7c5O70
 !s100 nh]hjVJ[`lJm[fJiE2KhZ2
 R9
 32
-R37
+R10
 !i10b 1
+R37
 R38
 R39
-R40
 !i113 1
 R14
 R15
@@ -677,17 +677,17 @@ R1
 R4
 R5
 R6
-Z41 8C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tProcessor.vhd
-Z42 FC:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tProcessor.vhd
+Z40 8C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tProcessor.vhd
+Z41 FC:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tProcessor.vhd
 l0
 L12
 V>nLL:IMgHzCkMVF;Xk;B?0
 !s100 AfM>`8CkebQoS>K]1oo?]0
 R9
 32
-!s110 1433623209
+Z42 !s110 1433645969
 !i10b 1
-Z43 !s108 1433623209.000000
+Z43 !s108 1433645969.000000
 Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tProcessor.vhd|
 Z45 !s107 C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tProcessor.vhd|
 !i113 1
@@ -699,14 +699,14 @@ R2
 R1
 R4
 R5
-DEx4 work 14 tprocessor_vhd 0 22 >nLL:IMgHzCkMVF;Xk;B?0
+Z46 DEx4 work 14 tprocessor_vhd 0 22 >nLL:IMgHzCkMVF;Xk;B?0
 l43
 L15
-Vn7D>P4YC`08OZNbK10VTn1
-!s100 f3V]g0ALAol;IPBnLGdOW2
+Z47 Vn7D>P4YC`08OZNbK10VTn1
+Z48 !s100 f3V]g0ALAol;IPBnLGdOW2
 R9
 32
-!s110 1433623210
+R42
 !i10b 1
 R43
 R44

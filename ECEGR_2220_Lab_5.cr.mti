@@ -9,6 +9,16 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Mar 25 
 -- Compiling entity ALU
 -- Compiling architecture behavior of ALU
 
+} {} {}} {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/Processor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/Processor.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Mar 25 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Processor
+-- Compiling architecture holistic of Processor
+
 } {} {}} {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tProcessor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tProcessor.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Mar 25 2015
 -- Loading package STANDARD
@@ -40,6 +50,26 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Mar 25 
 -- Compiling architecture calc of adder_subtracter
 -- Compiling entity shift_register
 -- Compiling architecture shifter of shift_register
+
+} {} {}} {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/ProcElements.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/ProcElements.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Mar 25 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity SmallBusMux2to1
+-- Compiling architecture switching of SmallBusMux2to1
+-- Compiling entity BusMux2to1
+-- Compiling architecture selection of BusMux2to1
+-- Compiling entity Control
+-- Compiling architecture Boss of Control
+-- Compiling entity ALUControl
+-- Compiling architecture bossy of ALUControl
+-- Compiling entity Registers
+-- Compiling architecture remember of Registers
+-- Compiling entity SignExtender
+-- Compiling architecture behavior of SignExtender
 
 } {} {}} {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tControl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/The Dude/Desktop/BG/___ECEGR2220/Labs/LabWork/Lab_5/ECEGR2220_MIPS_PROC/tControl.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Mar 25 2015
